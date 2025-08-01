@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CharmMe Bags - Customizable Purses & Charms</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf8;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #f8e1e1;
+    }
+    header h1 {
+      font-size: 24px;
+      color: #b76e79;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://i.ibb.co/Wz1ykBj/purse-charms-banner.jpg') no-repeat center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 42px;
+      background: rgba(0,0,0,0.4);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .btn {
+      background: #b76e79;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #995764;
+    }
+    footer {
+      background: #f8e1e1;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CharmMe Bags</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#customize">Customize</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Create Your Own Charm-Style Purse</h2>
+  </div>
+
+  <section id="shop">
+    <h2>Our Collection</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://i.ibb.co/6RYK1sD/purse1.jpg" alt="Purse 1" />
+        <h3>Classic Beige Tote</h3>
+        <p>$60.00</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://i.ibb.co/3ksgNj3/charm1.jpg" alt="Charm Set" />
+        <h3>Charm Starter Set</h3>
+        <p>$15.00</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://i.ibb.co/P9QkHZJ/purse2.jpg" alt="Purse 2" />
+        <h3>Elegant Black Shoulder Bag</h3>
+        <p>$75.00</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="customize" style="background:#fff2f2;">
+    <h2>Customize Your Bag</h2>
+    <p>Pick your favorite charms and create a unique purse look that matches your style.</p>
+    <button class="btn">Start Customizing</button>
+  </section>
+
+  <section id="about">
+    <h2>About CharmMe Bags</h2>
+    <p>We believe your purse should tell your story. Our customizable charms let you design a bag that's truly yours.</p>
+  </section>
+
+  <section id="contact" style="background:#fff2f2;">
+    <h2>Contact Us</h2>
+    <p>Email: support@charmmebags.com</p>
+    <p>WhatsApp: +961 70 000 000</p>
+    <p>Follow us on Instagram @CharmMeBags</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CharmMe Bags | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
